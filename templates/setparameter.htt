@@ -19,7 +19,7 @@
         <link href="../../templates/fraggy-backend-theme/api/favicon.php?size=16" rel="shortcut icon" type="image/png" sizes="16x16" />
 
         <!-- Theme CSS -->
-        <link href="../../templates/fraggy-backend-theme/css/style.min.css?v2.7.2" rel="stylesheet" type="text/css" />
+        <link href="../../templates/fraggy-backend-theme/css/style.min.css?v2.8.0" rel="stylesheet" type="text/css" />
 
         <!-- Initiliaze vars -->
         <script>
@@ -27,11 +27,11 @@
                 THEME_URL = '../../templates/fraggy-backend-theme',
                 ADMIN_URL = '{ADMIN_URL}',
                 LANGUAGE_CODE = navigator.language || navigator.userLanguage,
-                THEME_VERSION = '2.7.2';
+                THEME_VERSION = '2.8.0';
         </script>
 
         <!-- Theme jQuery -->
-        <script src="../../templates/fraggy-backend-theme/js/jquery.min.js?v2.7.2"></script>
+        <script src="../../templates/fraggy-backend-theme/js/jquery.min.js?v2.8.0"></script>
 
         <!-- WBCE helper JavaScript -->
         <script>
@@ -42,7 +42,7 @@
         </script>
 
         <!-- Theme JavaScript -->
-        <script src="../../templates/fraggy-backend-theme/js/script.min.js?v2.7.2"></script>
+        <script src="../../templates/fraggy-backend-theme/js/script.min.js?v2.8.0"></script>
 
     </head>
     <body id="setParameterPage">

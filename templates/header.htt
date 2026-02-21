@@ -22,7 +22,7 @@
         <link href="{THEME_URL}/api/favicon.php?size=16" rel="shortcut icon" type="image/png" sizes="16x16" />
 
         <!--(PH) CSS HEAD TOP+ -->
-        <link href="{THEME_URL}/css/style.min.css?v2.7.2" rel="stylesheet" type="text/css" />
+        <link href="{THEME_URL}/css/style.min.css?v2.8.0" rel="stylesheet" type="text/css" />
         <!--(PH) CSS HEAD TOP- -->    
 
         <!--(PH) CSS HEAD BTM+ -->
@@ -32,11 +32,11 @@
         <!-- Initiliaze vars -->
         <script>
             var LANGUAGE_CODE = '{LANGUAGE}',
-                THEME_VERSION = '2.7.2';
+                THEME_VERSION = '2.8.0';
         </script>
 
         <!-- Theme jQuery -->
-        <script src="{THEME_URL}/js/jquery.min.js?v2.7.2"></script>
+        <script src="{THEME_URL}/js/jquery.min.js?v2.8.0"></script>
 
         <!-- WBCE helper JavaScript -->
         <script>
@@ -47,7 +47,7 @@
         </script>
 
         <!--(PH) JS HEAD TOP+ -->
-        <script src="{THEME_URL}/js/script.min.js?v2.7.2"></script>
+        <script src="{THEME_URL}/js/script.min.js?v2.8.0"></script>
         <!--(PH) JS HEAD TOP- -->
 
         <!--(PH) JS HEAD BTM+ -->
@@ -146,7 +146,7 @@
         <div class="sidenav-content small">
             <ul class="list-inline versions">
                 <li class="list-inline-item nowrap">WBCE: {WBCE_VERSION}</li>
-                <li class="list-inline-item nowrap">Theme: 2.7.2</li>
+                <li class="list-inline-item nowrap">Theme: 2.8.0</li>
                 <li class="list-inline-item nowrap">Session timeout: <span id="countdown" class="timer">0:00:00</span></li>
             </ul>
             <hr/>

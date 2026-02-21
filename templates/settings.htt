@@ -7,7 +7,7 @@
         {FTAN}
 
         <div class="row">
-            <div class="col-xl-6">
+            <div class="col-xl-12">
 
                 <div class="card">
                     <h4 class="card-header">
@@ -380,10 +380,6 @@
 
                     </div>
                 </div>
-
-            </div><!-- /.col-xl-6 -->
-            <div class="col-xl-6">
-
                 <div class="card">
                     <h4 class="card-header">
                         {HEADING_SEARCH_SETTINGS}
@@ -872,10 +868,32 @@
                     </div>
                 </div>
 
-            </div><!-- /.col-xl-6 -->
+            </div><!-- /.col-xl-12 -->
         </div><!-- /.row -->
     </form>
-
+    <div class="row advanced-form-group" {DISPLAY_ADVANCED}>
+        <div class="col-xl-12">
+            <div class="card">
+                <h4 class="card-header">
+                    Mail-TEST
+                </h4>
+                <div class="card-body">
+                    <form name="user" action="{ADMIN_URL}/settings/send_testmail.php" method="post" class="form-horizontal">
+                        {FTAN}
+                        <input type="hidden" name="send_test_mail">
+                        <div class="form-group row mb-0">
+                            <label class="col-sm-6 col-form-label">{TEXT_SEND_TESTMAIL}</label>
+                            <div class="offset-sm-4 col-sm-8">
+                                <button type="submit" name="submit" class="btn btn-primary">{TEXT_BUTTON_SEND_TESTMAIL}</button>
+                                <a href="{ADVANCED_LINK}" class="btn btn-outline-light pull-right {DISPLAY_ADVANCED_BUTTON}"
+                                   title="{MODE_SWITCH_WARNING}">{ADVANCED_BUTTON}</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div><!-- /#settingsPage -->
 
 <!-- Custom Javascript -->
