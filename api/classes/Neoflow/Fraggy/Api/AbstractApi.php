@@ -87,7 +87,7 @@ abstract class AbstractApi
                 call_user_func([$this, $method], $args);
             }
             $this->notFound();
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             $this->error($ex->getMessage());
         }
     }
