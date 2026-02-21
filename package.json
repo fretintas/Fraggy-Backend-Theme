@@ -1,6 +1,6 @@
 {
   "name": "fraggy-backend-theme",
-  "version": "2.7.2",
+  "version": "2.8.0",
   "description": "Responsive and Bootstrap based backend theme for WBCE",
   "scripts": {
     "scss:build": "gulp scss:build",
@@ -21,7 +21,7 @@
     "bootstrap",
     "jquery"
   ],
-  "author": "2016-2024 Jonathan Nessier, 2019-2024 Colinax, 2022-2024 WBCE Team",
+  "author": "2016-2024 Jonathan Nessier, 2019-2026 Colinax, 2022-2026 WBCE Team",
   "license": "GPL-3.0",
   "contributors": [],
   "main": "index.php",
@@ -35,21 +35,21 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "cssnano": "^7.0.1",
+    "autoprefixer": "^10.4.24",
+    "cssnano": "^7.1.2",
     "fancy-log": "^2.0.0",
-    "gulp": "^5.0.0",
+    "gulp": "^5.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "5.1.0",
-    "sass": "1.32.13",
+    "gulp-sass": "6.0.1",
+    "sass": "1.78.0",
     "gulp-inject-string": "^1.1.2",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rename": "^2.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.1.0",
     "gulp-replace": "^1.1.4",
-    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-strip-css-comments": "^3.0.0",
     "gulp-terser": "^2.1.0",
-    "gulp-zip": "^5.1.0",
-    "postcss": "^8.4.38",
+    "gulp-zip": "^6.1.0",
+    "postcss": "^8.5.6",
     "postcss-sort-media-queries": "^5.2.0"
   },
   "browserslist": [
