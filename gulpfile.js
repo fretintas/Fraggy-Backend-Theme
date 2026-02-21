@@ -7,9 +7,9 @@ let terser = require('gulp-terser');
 let replace = require('gulp-replace');
 let fancy = require('fancy-log');
 let injectString = require('gulp-inject-string');
-let stripCssComments = require('gulp-strip-css-comments');
+let stripCssComments = require('gulp-strip-css-comments').default || require('gulp-strip-css-comments');
 let postcss = require('gulp-postcss');
-let zip = require('gulp-zip');
+let zip = require('gulp-zip').default || require('gulp-zip');
 
 let packagejson = require('./package.json');
 
@@ -21,7 +21,8 @@ let sourceHeader = fs.readFileSync(packagejson.buildOpts.common.sourceHeader, 'u
 gulp.task('scss:build', function () {
     return gulp.src('./src/sass/style.scss')
         .pipe(sass({
-            outputStyle: 'expanded'
+            silenceDeprecations: ['mixed-decls', 'slash-div', 'abs-percent'],
+            style: 'expanded'
         }).on('error', fancy))
         .pipe(gulp.dest('./src/css'));
 });
@@ -109,7 +110,9 @@ gulp.task('zip:build', function () {
             '!./src{,/**}',
             '!./README.md',
             '!*.zip'
-        ])
+        ], {
+            encoding: false
+        })
         .pipe(zip(packagejson.name + '-' + packagejson.version + '.zip'))
         .pipe(gulp.dest('./'));
 });
