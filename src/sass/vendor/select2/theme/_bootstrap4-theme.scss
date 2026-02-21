@@ -611,7 +611,7 @@ $s2bs-form-control-transition: border-color ease-in-out .15s, box-shadow ease-in
         .select2-search--inline .select2-search__field {
             padding: 0 $s2bs-padding-small-horizontal;
             font-size: $s2bs-font-size-small;
-            height: $s2bs-input-height-small - 2;
+            height: calc(#{$s2bs-input-height-small} - 2px);
             line-height: $s2bs-line-height-small;
         }
 
@@ -659,7 +659,7 @@ $s2bs-form-control-transition: border-color ease-in-out .15s, box-shadow ease-in
         .select2-search--inline .select2-search__field {
             padding: 0 $s2bs-padding-large-horizontal;
             font-size: $s2bs-font-size-large;
-            height: $s2bs-input-height-large - 2;
+            height: calc(#{$s2bs-input-height-large} - 2px);
             line-height: $s2bs-line-height-large;
         }
 
