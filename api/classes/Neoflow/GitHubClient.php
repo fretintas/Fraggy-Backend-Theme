@@ -96,9 +96,6 @@ class GitHubClient
                 throw new RuntimeException('Connection error. ' . curl_error($ch));
             }
 
-            // Close cURL request to clear up resources
-            curl_close($ch);
-
             // Set cache
             if ($cache) {
                 $this->setCache($url, $response);
