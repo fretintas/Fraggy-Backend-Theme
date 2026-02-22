@@ -7,7 +7,7 @@ Fraggy Backend Theme is a responsive and Bootstrap based template for the backen
 > There might be some design issues at the backend of modules, but usually the modules still work as expected.
 
 # Requirements
- * [WBCE v1.5.2](https://github.com/WBCE/WBCE_CMS/releases) or newer
+ * [WBCE v1.6.5](https://github.com/WBCE/WBCE_CMS/releases) or newer
  * PHP requirements see [WBCE CMS](https://github.com/WBCE/WBCE_CMS)
 
 # Download
@@ -36,8 +36,8 @@ Both images have to be uploaded into the root-directory (next to the config.php)
 
 The support is provided by the community in the [forum of WBCE](https://forum.wbce.org/viewforum.php?id=60).
 
+Thank you to the [WBCE](http://wbce.org) community for their support and tests.
+
 # Author
 
-Copyright © 2016-2024 Jonathan Nessier | Copyright © 2019-2024 Colinax | Copyright © 2022-2024 WBCE Team | Licensed under GNU GPLv3
-
-Thank you to the [WBCE](http://wbce.org) community for their support and tests. But also a special thank you to [Jörg Laas](https://www.jlhd.com/) and [trici](https://tricity.ch) for their donations!
+Copyright © 2016-2024 Jonathan Nessier | Copyright © 2019-2026 Colinax | Copyright © 2022-2026 WBCE Team | Licensed under GNU GPLv3
